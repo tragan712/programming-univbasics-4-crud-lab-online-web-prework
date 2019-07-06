@@ -31,9 +31,9 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-  [-1]
+p  [-1]
 end
 
 def update_element_from_index(array, index_number, element)
-create_an_array[4]"totally"
+p create_an_array[4]"totally"
 end
