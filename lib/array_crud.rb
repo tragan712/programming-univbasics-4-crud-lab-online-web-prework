@@ -11,7 +11,7 @@ p add_element_to_end_of_array << "arrays!"
  end
 
 def add_element_to_start_of_array(array, element)
-p .unshift "wow"
+p add_element_to_end_of_array.unshift "wow"
 end
 
 def remove_element_from_end_of_array(array)
