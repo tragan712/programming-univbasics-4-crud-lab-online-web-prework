@@ -23,7 +23,7 @@ p wow create_an_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
- p [2]
+ p create_an_array[2]
 end
 
 def retrieve_first_element_from_array(array)
@@ -31,7 +31,7 @@ def retrieve_first_element_from_array(array)
 end
 
 def retrieve_last_element_from_array(array)
-p  [-1]
+p  create_an_array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
