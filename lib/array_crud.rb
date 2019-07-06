@@ -23,7 +23,7 @@ p  create_an_array.shift "wow"
 end
 
 def retrieve_element_from_index(array, index_number)
- p [4]
+ p [2]
 end
 
 def retrieve_first_element_from_array(array)
@@ -35,5 +35,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
-create_an_array[4]"totaly"
+create_an_array[4]"totally"
 end
