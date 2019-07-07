@@ -15,11 +15,11 @@ p "wow"  .unshift array
 end
 
 def remove_element_from_end_of_array(array)
-p "arrays!" .shift array
+p "arrays!" .pop array
 end
 
 def remove_element_from_start_of_array(array)
- 
+ p "wow" .shift array
 end
 
 def retrieve_element_from_index(array, index_number)
@@ -27,7 +27,7 @@ p  array[2]
 end
 
 def retrieve_first_element_from_array(array)
-p  array=[0]
+p  array[0]
 end
 
 def retrieve_last_element_from_array(array)
