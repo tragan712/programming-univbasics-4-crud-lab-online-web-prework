@@ -19,7 +19,7 @@ p "arrays!" .pop array
 end
 
 def remove_element_from_start_of_array(array)
- p  .shift Array "wow"
+ "wow"= Array.shift 
 end
 
 def retrieve_element_from_index(array, index_number)
