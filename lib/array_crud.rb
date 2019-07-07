@@ -11,29 +11,29 @@ def add_element_to_end_of_array(array,element)
  end
 
 def add_element_to_start_of_array(array, element)
-wow=      add_element_to_end_of_array.unshift 
+wow=      add_element_to_start_of_array.unshift 
 end
 
 def remove_element_from_end_of_array(array)
-arrays=   add_element_to_end_of_array.pop 
+remove_element_from_end_of_array.pop 
 end
 
 def remove_element_from_start_of_array(array)
- add_element_to_end_of_array.shift 
+remove_element_from_start_of_array.shift 
 end
 
 def retrieve_element_from_index(array, index_number)
-  add_element_to_end_of_array[2]
+  retrieve_element_from_index[2]
 end
 
 def retrieve_first_element_from_array(array)
-  add_element_to_end_of_array[0]
+  retrieve_first_element_from_array[0]
 end
 
 def retrieve_last_element_from_array(array)
-  add_element_to_end_of_array[-1]
+  retrieve_last_element_from_array[-1]
 end
 
 def update_element_from_index(array, index_number, element)
- add_element_to_end_of_array[4]="totally"
+ update_element_from_index[4]="totally"
 end
