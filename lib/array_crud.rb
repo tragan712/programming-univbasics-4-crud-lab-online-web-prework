@@ -15,7 +15,7 @@ p "wow"  .unshift array
 end
 
 def remove_element_from_end_of_array(array)
-p  array.pop[-2]
+p  array.pop[-7,-6,-5,-4,-3,-2,-1]
 end
 
 def remove_element_from_start_of_array(array)
