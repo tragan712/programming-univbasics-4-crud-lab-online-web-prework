@@ -1,8 +1,8 @@
 def create_an_empty_array
-  []
+   []
 end
 def create_an_array
-  ["dad", "mom","sister","brother"]
+   ["dad", "mom","sister","brother"]
 end
 def add_element_to_end_of_array(array,element)
    array << "arrays!"
@@ -17,7 +17,7 @@ def remove_element_from_start_of_array(array)
   array.shift["wow"]
 end
 def retrieve_element_from_index(array, index_number)
- array[2]
+  array[2]
 end
 def retrieve_first_element_from_array(array)
   array[0]
@@ -26,5 +26,5 @@ def retrieve_last_element_from_array(array)
   array[-1]
 end
 def update_element_from_index(array, index_number, element)
-   array[4]="totally"
+  array[4]="totally"
 end
