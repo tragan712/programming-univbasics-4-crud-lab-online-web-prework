@@ -23,7 +23,7 @@ p add_element_to_end_of_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
- p[2]
+ p add_element_to_end_of_array[2]
 end
 
 def retrieve_first_element_from_array(array)
