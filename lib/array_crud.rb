@@ -19,7 +19,7 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-p  remove_element_from_start_of_array.shift "wow"
+p  create_an_array "wow"
 end
 
 def retrieve_element_from_index(array, index_number)
@@ -35,5 +35,5 @@ def retrieve_last_element_from_array(array)
 end
 
 def update_element_from_index(array, index_number, element)
- (add_element_to_start_of_array[4]="totally")
+ [4]="totally"
 end
